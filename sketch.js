@@ -49,7 +49,6 @@ function changeBG() {
   window.alert('顏色小於50(接近白色)會變圓型');
   window.alert('顏色大於50(接近黑色)會變方型');
   window.alert('底下可以調整背景顏色');
-  window.alert('按下空白鍵重整');
 
   background(val);
 }
