@@ -30,6 +30,7 @@ function setup() {
 }
 
 function draw() {
+  
 
   let val = slider.value();
   background(val, 100, 100, 1); //背景顏色
@@ -113,12 +114,13 @@ class mybox {
     }
 
     box(this.size);
+    
+    this.tt();
 
 
     pop();
 
     this.move();
-    this.tt();
   }
   //移動規則
   move() {
@@ -150,7 +152,7 @@ class mybox {
 
   tt() {
     if (key == ' ') {
-      setInterval(1);
+      setInterval(1000);
     }
 
   }
