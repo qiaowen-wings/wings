@@ -152,7 +152,7 @@ class mybox {
 
   tt() {
     if (key == ' ') {
-      setInterval(1000);
+      window.location.reload(); 
     }
 
   }
